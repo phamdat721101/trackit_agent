@@ -1,14 +1,15 @@
 [package]
-name = "suipump"
-edition = "2024.beta"
-
-[dependencies]
-CetusClmm = { git = "https://github.com/CetusProtocol/cetus-clmm-interface.git", subdir = "sui/clmmpool", rev = "testnet-v1.23.1" }
+name = "trackit"
+version = "1.0.0"
+authors = []
 
 [addresses]
-suipump = "0x0"
-
-[dev-dependencies]
 
 [dev-addresses]
 
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]

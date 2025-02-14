@@ -8,7 +8,7 @@ The project is divided into three main components:
 
 1. `trackit_app`: Front-end application
 2. `trackit_be`: Back-end server
-3. `trackit_contract`: Sui smart contract for the agent launch pad
+3. `trackit_contract`: Aptos smart contract for the agent launch pad
 
 ## Prerequisites
 
@@ -16,7 +16,7 @@ Before you begin, ensure you have the following installed:
 
 - Node.js (v14 or later)
 - npm (v6 or later)
-- Sui CLI (for smart contract deployment)
+- Aptos CLI (for smart contract deployment)
 
 ## Setup and Running Instructions
 
